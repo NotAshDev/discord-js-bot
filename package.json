@@ -1,15 +1,15 @@
 {
-  "name": "discord-js-bot",
+  "name": "district-xlantis",
   "version": "5.5.0",
   "description": "An open-source, multipurpose discord bot built using discord-js",
   "main": "bot.js",
-  "author": "Sai Teja M",
+  "author": "NotAsh.Dev",
   "license": "ISC",
   "engines": {
     "node": ">=18.0.0"
   },
   "scripts": {
-    "dev": "nodemon .",
+    "dev": "NotAsh.Dev.",
     "start": "node .",
     "format": "prettier --write src",
     "docker:package": "tar -cf discord-js-bot.tar dashboard logs src bot.js config.js dockerfile package.json package-lock.json",
